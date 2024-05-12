@@ -4,6 +4,7 @@ public class Adulthood{
 		Scanner scan = new Scanner(System.in);
 		System.out.println("How old are you?");
 		int age = Integer.valueOf(scan.nextLine());
+		// Conditional Statement 1
 		if (age >= 18) {
 			System.out.println("You are an adult");
 		} else {

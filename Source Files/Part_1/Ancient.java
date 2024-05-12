@@ -4,6 +4,7 @@ public class Ancient{
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Give a year:");
 		int year = Integer.valueOf(scan.nextLine());
+		// Conditional statement 2
 		if (year < 2015) {
 			System.out.println("Ancient History!");
 		}

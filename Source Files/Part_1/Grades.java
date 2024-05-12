@@ -4,6 +4,7 @@ public class Grades{
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Give points [0-100]:");
 		int grade = Integer.valueOf(scan.nextLine());
+		// Conditional statement 3
 		if (grade < 0) {
 			System.out.println("Grade: impossible!");
 		} else if (grade >= 0 && grade < 50) {

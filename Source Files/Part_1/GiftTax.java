@@ -4,6 +4,7 @@ public class GiftTax{
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Value of the gift?");
 		int gift = Integer.valueOf(scan.nextLine());
+		// Conditional statement 4
 		if (gift < 5000) {
 			System.out.println("No tax!");
 		} else if (gift >= 5000 && gift < 25000) {

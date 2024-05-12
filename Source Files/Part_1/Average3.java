@@ -8,6 +8,7 @@ public class Average3{
 		int value2 = Integer.valueOf(scan.nextLine());
 		System.out.println("Give the third number:");
 		int value3 = Integer.valueOf(scan.nextLine());
+		// type conversion from int to double
 		System.out.println("The average is " + (1.0*(value1+value2+value3)/3));
 	}
 }
