@@ -19,13 +19,13 @@ public class Manager {
         this.container = new ArrayList<>();
         this.path = val;
         try(Scanner read = new Scanner(Paths.get(this.path))) {
-            ArrayList<String> raw = new ArrayList<>();
+            
             String material = null;
             String item = null;
             int time = 0;
             while(read.hasNextLine()) {
+                ArrayList<String> raw = new ArrayList<>();
                 item = read.nextLine();
-                raw.clear();
                 time = Integer.valueOf(read.nextLine());
                 while(true) {
                     if((!read.hasNextLine())) {
